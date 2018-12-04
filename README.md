@@ -17,7 +17,6 @@
 - Disable rule `no-param-reassign` for `props`
 - Disable rule `func-names`
 - Disable rule `import/prefer-default-export`
-- Configure rules `vue/max-attributes-per-line` and `vue/html-closing-bracket-newline`
 
 ## Installation
 

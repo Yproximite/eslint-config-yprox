@@ -24,10 +24,10 @@
 $ yarn add --dev @yproximite/eslint-config-yprox
 ```
 
-Dont forget to install ESLint too:
+Dont forget to install ESLint and Prettier too:
 
 ```bash
-$ yarn add --dev eslint
+$ yarn add --dev eslint prettier
 ```
 
 ## Usage

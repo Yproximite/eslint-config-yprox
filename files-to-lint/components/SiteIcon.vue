@@ -16,6 +16,10 @@
     </Tooltip>
 
     <MonComponent v-if="1 === 1" :prop="'foo'" :bar="title" @click="maMethode()" />
+
+    <span v-if="parentLoading">
+      <i class="fa fa-refresh fa-spin" />
+    </span>
   </div>
 </template>
 

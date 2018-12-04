@@ -1,0 +1,13 @@
+{
+  "name": "@yproximite/eslint-config-yprox",
+  "version": "0.0.0-development",
+  "description": "ESLint configuration for our Yprox CMS apps",
+  "main": "index.js",
+  "files": ["index.js"],
+  "repository": "https://github.com/Yproximite/eslint-config-yprox.git",
+  "author": "Hugo Alliaume <kocal@live.fr>",
+  "license": "MIT",
+  "publicConfig": {
+    "access": "public"
+  }
+}

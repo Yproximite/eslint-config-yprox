@@ -12,10 +12,22 @@
   "publicConfig": {
     "access": "public"
   },
+  "scripts": {
+    "lint": "eslint -c index.js --ext .js,.vue files-to-lint"
+  },
   "peerDependencies": {
     "eslint": "^5.9.0"
   },
   "devDependencies": {
     "eslint": "^5.9.0"
+  },
+  "dependencies": {
+    "@yproximite/eslint-config-base": "^0.2.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "prettier": "^1.15.3"
   }
 }

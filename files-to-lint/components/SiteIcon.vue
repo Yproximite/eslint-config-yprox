@@ -14,6 +14,8 @@
         </tr>
       </table>
     </Tooltip>
+
+    <MonComponent v-if="1 === 1" :prop="'foo'" :bar="title" @click="maMethode()" />
   </div>
 </template>
 

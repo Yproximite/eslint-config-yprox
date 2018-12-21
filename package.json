@@ -13,7 +13,7 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint -c index.js --ext .js,.vue files-to-lint",
+    "lint": "eslint --ext .js,.vue files-to-lint",
     "semantic-release": "semantic-release"
   },
   "peerDependencies": {

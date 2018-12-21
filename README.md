@@ -8,7 +8,7 @@
 ## Features
 
 - Include [AirBnb standard](https://github.com/airbnb/javascript)
-- Include [Prettier](https://github.com/prettier/prettier)
+- Include [Prettier](https://github.com/prettier/prettier) (optional)
 - Include [Vue ESLint plugin](https://github.com/vuejs/eslint-plugin-vue) 
 - Include [@yproximite/eslint-config-base](https://github.com/Yproximite/eslint-config-base)
 - Configure indendation to **2 spaces**
@@ -21,13 +21,7 @@
 ## Installation
 
 ```bash
-$ yarn add --dev @yproximite/eslint-config-yprox
-```
-
-Dont forget to install ESLint and Prettier too:
-
-```bash
-$ yarn add --dev eslint prettier
+$ yarn add --dev @yproximite/eslint-config-yprox eslint@^5.9.0
 ```
 
 ## Usage
@@ -39,6 +33,16 @@ Edit your ESLint configuration file with:
   "extends": ["@yproximite/yprox"]
 }
 ```
+
+or with Prettier support:
+
+```json
+{
+  "extends": ["@yproximite/yprox/prettier"]
+}
+```
+
+**Note:** you should install Prettier yourself with `yarn add --dev prettier@^1.15.0`
 
 ---
 

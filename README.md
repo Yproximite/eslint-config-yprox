@@ -21,7 +21,7 @@
 ## Installation
 
 ```bash
-$ yarn add --dev @yproximite/eslint-config-yprox eslint@^5.9.0
+$ yarn add --dev @yproximite/eslint-config-yprox eslint@^5.9.0 babel-eslint@^10.0.0
 ```
 
 ## Usage

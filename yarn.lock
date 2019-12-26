@@ -244,9 +244,9 @@
   integrity sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==
 
 "@yproximite/eslint-config-base@^1.0.5":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@yproximite/eslint-config-base/-/eslint-config-base-1.0.7.tgz#7cabbe7e0e3be0576920b795cd74874761b4960b"
-  integrity sha512-2qIJB9DzNw1nN99kIVYMpiIHsFULtHMiub6osgCK7rkP1p8TKjlcIZERTcqbTY3VD6t+hOJMLWj7Bw1hzufwWA==
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@yproximite/eslint-config-base/-/eslint-config-base-1.0.8.tgz#8a017a7c4b1baf0a89653a61a2adc815f8122d2f"
+  integrity sha512-t+RmmU4sC41hK9sOvQvpM0JYGiM0VH0ZUWBljWWAcHu11MqMB0anF+ZaLpT6K4HCCp/N7gtDhJl3uGFYiNZAdg==
 
 JSONStream@^1.0.4, JSONStream@^1.3.4, JSONStream@^1.3.5:
   version "1.3.5"

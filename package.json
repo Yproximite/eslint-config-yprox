@@ -11,8 +11,12 @@
   "repository": "https://github.com/Yproximite/eslint-config-yprox.git",
   "author": "Hugo Alliaume <kocal@live.fr>",
   "license": "MIT",
+  "engines": {
+    "node": ">= 9.0.0"
+  },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
     "lint": "eslint --ext .js,.vue files-to-lint",
@@ -20,18 +24,18 @@
   },
   "peerDependencies": {
     "babel-eslint": "^10.0.0",
-    "eslint": "^5.9.0 || ^6",
+    "eslint": "^6.0.0",
     "prettier": "^1.15.3"
   },
   "devDependencies": {
-    "@kocal/semantic-release-preset": "^1.1.14",
+    "@kocal/semantic-release-preset": "^2.0.0",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.6.0",
     "prettier": "^1.18.2",
-    "semantic-release": "^15.13.28"
+    "semantic-release": "^17.0.4"
   },
   "dependencies": {
-    "@yproximite/eslint-config-base": "^1.0.5",
+    "@yproximite/eslint-config-base": "^1.0.11",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.5.0",
     "eslint-plugin-import": "^2.18.2",

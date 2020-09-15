@@ -1,5 +1,5 @@
 <template>
-  <div style="position: relative; overflow: visible;">
+  <div style="position: relative; overflow: visible">
     <Tooltip>
       <span slot="content">{{ title }}</span>
 

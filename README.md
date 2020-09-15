@@ -30,7 +30,7 @@ You can run `npm login --registry=https://npm.pkg.github.com --scope=@yproximite
 
 Then run: 
 ```bash
-$ yarn add --dev @yproximite/eslint-config-yprox eslint@^6.0.0 babel-eslint@^10.0.0
+$ yarn add --dev @yproximite/eslint-config-yprox eslint@^7.0.0 babel-eslint@^10.0.0
 ```
 
 ## Usage

@@ -51,7 +51,7 @@ or with Prettier support:
 }
 ```
 
-**Note:** you should install Prettier yourself with `yarn add --dev prettier@^1.15.0`
+**Note:** you should install Prettier yourself with `yarn add --dev prettier@^2.0.0
 
 ---
 

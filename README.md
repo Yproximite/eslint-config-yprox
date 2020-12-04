@@ -1,3 +1,5 @@
+# This package is deprecated, use [eslint-config-generator](https://github.com/Yproximite/eslint-config-generator) instead.
+
 # eslint-config-yprox
 
 ![Node CI](https://github.com/Yproximite/eslint-config-yprox/workflows/Node%20CI/badge.svg)
